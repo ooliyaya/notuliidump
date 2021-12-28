@@ -1,0 +1,233 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	}
+	a {
+		color:inherit;
+		text-decoration: none;
+	}
+	body {
+	margin: 0px;
+	padding:0px;
+	font-family:'Acme';
+	background-color: #c2d9fc;
+	}
+	.medsos { 
+		padding:5px 0;
+		background-color: #ad0c07;
+		
+	 }
+	 .medsos ul li {
+	 	display: inline-block;
+	 	color: white;
+	 	margin-right: 10px;
+	 	padding-left: 10px;
+	 	
+	 }
+	 .container {
+	 	width: 80%;
+	 	margin:0 auto;
+
+	 }
+	 .container:after {
+	 	content:'';
+	 	display: block;
+	 	clear: both;
+	 }
+	 .container img {
+	 	height: 55px;
+  		width: 55px;
+  		padding-left: 250px;
+  		padding-top: 5px; 
+	 }
+	 header h1 {
+	 	float: left;
+	 	padding: 15px 0;
+	 	color: #1D2D50;
+	 	font-family: 'Acme';
+	 }
+	 header ul {
+	 	float: right;
+	 }
+	 header ul li {
+	 	display: inline-block;
+	 }
+	 header ul li a {
+	 	padding:25px 20px;
+	 	display: inline-block;
+	 }
+	 header ul li a:hover {
+	 	background-color: #1D2D50;
+	 	color:white;
+	 }
+	 .active {
+	 	background-color: #1D2D50;
+	 	color:white;
+	 }
+	 .banner {
+	 	height: 60vh;
+	 	background-image: url('../Img/UI.jpg');
+	 	background-size: cover;
+	 	position: relative;
+	 	display: flex;
+	 	justify-content: center;
+	 	align-items: center;
+	 }
+	 .banner h2 {
+	 	color: black;
+	 	z-index: 1;
+	 	padding: 20px 25px;
+	 	border: 3px solid black;
+	 	font-family: 'Acme';
+	 }
+	 .banner:after {
+	 	content: '';
+	 	display: block;
+	 	position: absolute;
+	 	top: 0;
+	 	left:0;
+	 	right:0;
+	 	bottom: 0;
+	 	background-color: rgba(217, 214, 213, 0.3);
+	 }
+	 section {
+	 	padding: 50px 0;
+	 }
+	 section h3 {
+	 	text-align: center;
+	 	padding: 20px 0;
+	 	color: black;
+	 }
+	 section ol {
+	 	padding-left: 20px;
+	 }
+	 section ul {
+	 	padding-left: 20px;
+	 }
+	 section p {
+	 	padding-left: 20px;
+	 }
+	 footer {
+	 	text-align: center;
+	 	padding-bottom: 20px;
+	 	padding-top: 15px;
+	 	color: black;
+	 	background-color: #e6bfbc;
+
+	 }
+	 .aboutme{
+	 	width: 100%;
+	 	margin: auto;
+	 	position: relative;
+	 	border:1px solid;
+	 	background-image: url('../Img/gambar about.jpg');
+	 	background-size: cover;
+	 	position: right;
+
+	 }
+	 .biodata img {
+	 	width: 200px;
+	 	height: 300px;
+	 	color:white;
+	 		
+	 	border-radius: 20px;
+	 	margin-left: 100px;
+	 	margin-bottom: 10px;
+	 	margin-top: 10px;
+	 }
+	 .container1 {
+	 	width: 80%;
+	 	margin:0 auto;
+	 	background-color: rgba(217, 214, 213, 0.5);
+	 	border-radius: 10px;
+	 }
+	 .container1 h1 {
+	 	padding-left: 20px;
+	 	font-family: 'Acme';
+	 }
+	 .container1 img {
+	 	height: 55px;
+  		width: 55px;
+  		padding-left: 300px;
+  		padding-top: 5px;
+	 }
+	 .biodata ul {
+	 	float: right;
+	 	margin-right: 50px;
+	 	width: 700px;
+	 }
+	 .biodata ul li {
+	 	margin-right: 8px;
+	 	font-weight: bold;
+	 	font-family: 'comic sans-ms'
+	 }
+	 .bio {
+	 	margin: 50px;
+	 	margin-top: 30px;
+	 	border-radius: 30px;
+	 	background-color: rgba(217, 214, 213, 0.5);
+	 }
+	
+	 .container3 {
+	 	width: 80%;
+	 	margin:0 auto;
+	 	background-color: rgb(217, 214, 213, 0.5);
+	 	border-radius: 10px;
+	 }
+	  .container3 h1 {
+	 	padding-left: 20px;
+	 }
+	 .container3 img {
+	 	height: 55px;
+  		width: 55px;
+  		padding-left: 430px;
+  		padding-top: 5px;
+	 }
+	 .tahun {
+	 	border:1px solid;
+	 	background-color: ;
+	 }
+	 .judul h2 {
+	 	color: black;
+	 	text-align: center;
+	 	border:1px solid;
+	 	padding: 20px 0;
+	 	background-color: white;
+	 	width: 80%;
+	 	margin:auto;
+	 	border-radius: 30px;
+	 	font-family: 'Acme';
+	 }
+	 .judul h3 {
+	 	float: left;
+	 	margin-left: 30px;
+	 }
+	 .tahun ul {
+	 	margin-left: 30px;
+	 }
+	 .tahun p {
+	 	margin-left: 15px;
+	 	font-style: 'acme';
+	 }
+	 .aboutpaskibra img {
+	 	size:50px 50px;
+	 	border:1px solid;
+	 	margin-left: 50px;
+	 	border-radius: 30px;
+	 	height: 500px;
+	 	width: 600px
+	 }
+	 .halaman {
+	 	background-color: white;
+	 }
+	 .aboutpaskibra h3 {
+	 	float: right;
+	 	margin-right: 50px;
+	 	margin-top: 30px;
+	 	width: 500px;
+	 	border: 1px solid;
+	 	background-color: rgba(217, 214, 213, 0.5);
+	 	border-radius: 20px;
+	 	padding: 10px;
